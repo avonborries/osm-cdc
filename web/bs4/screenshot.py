@@ -1,5 +1,8 @@
 # screenshot.py
 
+!pip install playwright
+!playwright install
+
 from playwright.sync_api import sync_playwright
 
 def take_full_page_screenshot(url, output_path):
